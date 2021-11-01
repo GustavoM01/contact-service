@@ -1,10 +1,10 @@
-package com.ironhack.leadservice;
+package com.ironhack.contactservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LeadServiceApplicationTests {
+class ContactServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

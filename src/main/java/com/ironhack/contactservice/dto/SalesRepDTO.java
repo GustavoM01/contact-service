@@ -1,4 +1,4 @@
-package com.ironhack.leadservice.dto;
+package com.ironhack.contactservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.ironhack.leadservice.dto;
+package com.ironhack.contactservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,7 +13,7 @@ import javax.validation.constraints.Size;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class LeadDTO {
+public class ContactDTO {
 
     @NotBlank(message = "No name input. Please try again.")
     @Size(max = 43, message = "Exceeds maximum value of 43 characters. Please try again.")

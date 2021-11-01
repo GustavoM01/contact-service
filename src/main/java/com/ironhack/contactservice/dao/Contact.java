@@ -1,4 +1,4 @@
-package com.ironhack.leadservice.dao;
+package com.ironhack.contactservice.dao;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,11 +13,11 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Entity
 @Table(name = "leads")
-public class Lead {
+public class Contact {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long leadId;
+    private Long decisionMakerId;
 
     @Column(name="contact_name")
     private String name; // Is private better than protected for encapsulation
@@ -34,7 +34,7 @@ public class Lead {
     private Long salesRepId;
 
 
-    public Lead(String name, String phoneNumber, String email, String companyName, Long salesRepId) {
+    public Contact(String name, String phoneNumber, String email, String companyName, Long salesRepId) {
         setName(name);
         setPhoneNumber(phoneNumber);
         setEmail(email);

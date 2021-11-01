@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ironhack</groupId>
-	<artifactId>lead-service</artifactId>
+	<artifactId>contact-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>lead-service</name>
+	<name>contact-service</name>
 	<description>CRUD operations for leads</description>
 	<properties>
 		<java.version>17</java.version>
